@@ -10,7 +10,7 @@ const relogio = setInterval(function time() {
     let segundo = dateToday.getSeconds();
 
     if (hora < 10) hora = '0' + hora;
-    if (minuto < 10) minutos = '0' + minuto;
+    if (minuto < 10) minuto = '0' + minuto;
     if (segundo < 10) segundo = '0' + segundo;
 
 
